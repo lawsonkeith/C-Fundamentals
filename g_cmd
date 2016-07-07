@@ -1,0 +1,12 @@
+echo 
+tput clear
+tput setaf 2
+echo compiling c++ examples...
+echo map example
+tput setaf 7
+g++ -std=c++11 map.cc -o map	
+tput setaf 2
+echo array example
+tput setaf 7
+g++ -std=c++11 array.cc -o array
+
